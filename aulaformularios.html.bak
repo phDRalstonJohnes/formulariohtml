@@ -1,0 +1,29 @@
+﻿<html>
+ <head>                                       <!--CABEÇÁLHO DA PÁGINA-->
+     <title>Cadastro</title>    <!--INFORMAÇÃO QUE FICA NA ABA DO NAVEGADOR-->   
+ </head> 
+ <body>                        <!--TUDO QUE A PÁGINA VAI EXIBIR-->
+  <header><h1>Preencha o fomrulário de cadastro</h1></header>
+  <nav></nav>
+ </body> 
+ <section>
+ <img src="imagemhtml.png" title="HTML" height="120px" width="300px">
+ </section><br>
+ <section>
+<form method="post" action="*">
+ Nome: &nbsp&nbsp&nbsp <input type="text" name="nome"><br><br>
+ Email: &nbsp&nbsp&nbsp <input type="text" name="email"><br><br>
+ Senha: &nbsp&nbsp&nbsp <input type="password" name="senha"><br><br>
+ Telefone: <input type="text" name="telefone" maxlength="12" pattern="[0-9]{7}[0-9]{4}"><br><br>
+ Sexo: <input type="radio" name="sexo" value="masculino">Masculino
+	   <input type="radio" name="sexo" value="feminino">Feminino
+       <input type="radio" name="sexo" value="outro">Outro<br><br>
+ CPF: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input type="text" name="cpf" maxlength="14" pattern="[0-9]{3}.[0-9]{3}.[0-9]{3}-[0-9]{2}"><br><br>
+ Estado: &nbsp&nbsp <input type="text" name="estado"><br><br>
+ Cidade:&nbsp&nbsp <input type="text" name="cidade"><br><br>
+ <input type="checkbox" name="concordo" value"1">Concordo com os termos de uso<br>
+ <input type="checkbox" name="concordo" value"1">Quero receber novidades por email<br><br>
+ <input type="submit"></button>
+</form></section>
+
+</html>
